@@ -1,0 +1,40 @@
+
+/* ---------------------------------------------------
+        logo
+---------------------------------------------------*/
+.data-analysis-logo {
+  #inner-ring-thin {
+    animation: wheel 30s infinite;
+    transform-origin: center;
+  }
+  
+  #inner-ring-thick {
+    animation: wheel 40s infinite;
+    transform-origin: center;
+  }
+  
+  #triangle-one,
+  #triangle-two,
+  #triangle-three {
+    animation: wheel 60s reverse infinite;
+    transform-origin: center;
+  }
+}
+
+
+
+/* ------------------------------------------------ */
+/* SVGs */
+/* About */
+#mask0_1_3500, #mask0_0_1, #mask1_0_1, #mask1_10_35  {
+  mask-type: alpha;
+}
+
+
+
+
+
+
+
+  
+  
