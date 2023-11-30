@@ -1,20 +1,20 @@
-import AboutSVG from "../../assets/svg/AboutSVG";
-import ContactSVG from "../../assets/svg/ContactSVG";
-import ProjectsSVG from "../../assets/svg/ProjectsSVG";
+import SVGLinkAbout from "./SVGLinkAbout";
+import SVGLinkContact from "./SVGLinkContact";
+import SVGLinkProjects from "./SVGLinkProjects";
 
 const SVGLinks = () => {
   return (
     <div className="svg-links-container">
     <a href="/about">
-      <AboutSVG />
+      <SVGLinkAbout />
     </a>
 
     <a href="/contact">
-      <ContactSVG />
+      <SVGLinkContact />
     </a>
 
     <a href="/projects">
-      <ProjectsSVG />
+      <SVGLinkProjects />
     </a>
 
     </div>

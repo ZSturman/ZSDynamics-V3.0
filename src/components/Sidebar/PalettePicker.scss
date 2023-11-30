@@ -1,0 +1,33 @@
+.palette-picker-container {
+    position: absolute; 
+    bottom: 0;
+    left: 100%;
+    z-index: 4;
+  }
+  
+
+.palettes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10px;
+    transition: width 0.3s ease; 
+    background-color: var(--secondary-background);
+    border-radius: 0 20px 20px 0;
+}
+
+.palette-swatch {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    transform-origin:left;
+    box-shadow: 0 0 0px 10px var(--text-primary);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.5);
+        overflow: visible;
+        box-shadow: 0 0 0px 10px var(--secondary-background);
+        border-radius: 30%;
+    }
+}

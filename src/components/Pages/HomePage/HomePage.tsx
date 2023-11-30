@@ -1,18 +1,16 @@
-import HomePageTop from "./HomePageTop"
-import AboutSnippet from "./AboutSnippet"
-import Services from "./Services"
+import HomePageTop from "./HomePageTop";
+import AboutSnippet from "./AboutSnippet";
+import Services from "./Services";
+import "./HomePage.scss"
 
 const HomePage = () => {
-    return (
-        <>
-       <HomePageTop />
-       <hr />
-       <AboutSnippet />
-       <hr />
-       <Services />
-       </>
+  return (
+    <section className="content-page">
+      <HomePageTop />
+      <AboutSnippet />
+      <Services />
+    </section>
+  );
+};
 
-    )
-  }
-  
-  export default HomePage
+export default HomePage;

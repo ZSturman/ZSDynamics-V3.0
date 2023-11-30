@@ -1,6 +1,6 @@
 const AboutPageWhy = () => {
     return (
-       <section className="vh60">
+       <section>
             <h1>About Why</h1>
        </section>
     )

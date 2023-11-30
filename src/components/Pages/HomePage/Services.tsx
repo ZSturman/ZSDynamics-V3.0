@@ -1,9 +1,25 @@
-import SVGLinks from "../../Links/SVGLinks"
-
 const Services = () => {
     return (
-        <section className="vh80">
-            <h2>Services here</h2>
+        <section>
+            <ul>
+                <li>
+                    Data Science
+                </li>
+                <li>
+                    Web Development
+                </li>
+                <li>
+                    Software Development
+                </li>
+                <li>
+                    Cloud Computing
+                </li>
+                <li>
+                    Machine Learning
+                </li>
+
+
+            </ul>
         </section>
 
     )

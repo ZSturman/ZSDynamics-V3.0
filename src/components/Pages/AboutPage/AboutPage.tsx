@@ -5,13 +5,13 @@ import AboutPageFuture from "./AboutPageFuture"
 
 const AboutPage = () => {
     return (
-        <section>
+        <div className="content-page">
             <AboutPageIntro />
             <AboutPageJourney />
             <AboutPageWhy />
             <AboutPageFuture />
        
-        </section>
+        </div>
     )
   }
   

@@ -1,11 +1,9 @@
-import SVGLinks from "../Links/SVGLinks"
+import "./Footer.scss"
 
 const Footer = () => {
     return (
-        <footer>
-            <SVGLinks />
             <p>Copyright &copy; 2023</p>
-        </footer>
+
     )
 }
 

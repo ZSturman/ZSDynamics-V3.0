@@ -1,6 +1,6 @@
 const AboutPageJourney = () => {
     return (
-       <section className="vh60 bg-dark">
+       <section>
             <h1>About Journey</h1>
        </section>
     )

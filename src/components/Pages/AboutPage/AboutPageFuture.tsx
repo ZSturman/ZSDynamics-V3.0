@@ -1,6 +1,6 @@
 const AboutPageFuture = () => {
     return (
-       <section className="vh80 bg-dark">
+       <section>
             <h1>About Future</h1>
        </section>
     )
