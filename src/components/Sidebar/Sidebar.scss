@@ -1,0 +1,77 @@
+.icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--secondary-background);
+    position: relative;
+    overflow: auto;
+    padding-bottom: 10vh;
+}
+
+
+
+
+.icon {
+    font-size: 1.9rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        overflow: visible;
+        opacity: 1;
+        color: var(--highlight-accent);
+    } 
+  }
+
+
+.paint-bucket {
+    stroke-width: 0.65;
+    overflow: visible;
+}
+
+.paint-bucket-active {
+    stroke-width: 0.15;
+    scale: 1.25;
+    overflow: visible;
+    
+}
+
+.palette-picker-container {
+    position: absolute; 
+    bottom: 0;
+    left: 100%;
+    z-index: 4;
+    margin-bottom: 10vh;
+  }
+  
+
+.palettes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10px;
+    transition: width 0.3s ease; 
+    background-color: var(--secondary-background);
+    border-radius: 0 20px 20px 0;
+    opacity: 0.9;
+}
+
+.palette-swatch {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    transform-origin:left;
+    box-shadow: 0 0 0px 10px var(--text-primary);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.5);
+        overflow: visible;
+        box-shadow: 0 0 0px 10px var(--secondary-background);
+        border-radius: 30%;
+    }
+}

@@ -1,0 +1,96 @@
+:root {
+    /* Modern & Clean Palette: */
+    --primary-background: #d3d3d3;
+    --secondary-background: #fffaf0;
+    --primary-text: #2b2b2b; 
+    --secondary-text: #000080;
+    --highlight-accent: #add8e6;
+    --font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .warm-palette {
+    /* Warm & Cozy Palette: */
+    --primary-background: #fffdd0;
+    --secondary-background: #f5f5dc;
+    --primary-text: rgb(65, 44, 30); 
+    --secondary-text: rgb(183, 65, 14);
+    --highlight-accent: #ffd700;
+    --font-family: "Georgia", Times, serif;
+  }
+  
+  .cool-palette {
+    /* Professional & Sophisticated Palette: */
+    --primary-background: #ffffff;
+    --secondary-background: #c0c0c0;
+    --primary-text: rgb(54, 69, 79); 
+    --secondary-text: rgb(0, 35, 102);
+    --highlight-accent: #008080;
+    --font-family: "Roboto", "Arial", sans-serif; 
+  }
+  
+  .minimalist-palette {
+    /* Minimalist & Artistic Palette: */
+    --primary-background: #fffff0;
+    --secondary-background: #bc8f8f;
+    --primary-text: rgb(0, 0, 0); 
+    --secondary-text: rgb(107, 142, 35);
+    --highlight-accent: #cc5500;
+    --font-family: "Lato", sans-serif;
+  }
+  
+  .vibrant-palette {
+    /* Vibrant & Energetic Palette: */
+    --primary-background: #ffffff;
+    --secondary-background: #d3d3d3;
+    --primary-text: rgb(41, 50, 60); 
+    --secondary-text: rgb(255, 0, 0);
+    --highlight-accent: #ffff00;
+    --font-family: "Montserrat", sans-serif;
+  }
+  
+  .elegant-palette {
+    --primary-background: #e9e6e1;
+    --secondary-background: #c6b09b;
+    --primary-text: rgb(34, 34, 34);
+    --secondary-text: rgb(78, 52, 46);
+    --highlight-accent: #bd9b7a;
+    --font-family: "Playfair Display", serif; 
+  }
+  
+  .rustic-palette {
+    --primary-background: #e9d8bd;
+    --secondary-background: #c0a280;
+    --primary-text: rgb(59, 41, 31);
+    --secondary-text: rgb(112, 84, 62);
+    --highlight-accent: #967151;
+    --font-family: "Cormorant Garamond", serif; /* */
+  }
+  
+  .fresh-palette {
+    --primary-background: #f2fff2;
+    --secondary-background: #d7ffd7;
+    --primary-text: rgb(30, 77, 43);
+    --secondary-text: rgb(60, 179, 113);
+    --highlight-accent: #90ee90;
+    --font-family: "Franklin Gothic Medium", sans-serif; 
+  }
+  
+  .nautical-palette {
+    --primary-background: rgb(207, 226, 243);
+    --secondary-background: #b0c4de;
+    --primary-text: rgb(25, 25, 112);
+    --secondary-text: rgb(70, 130, 180);
+    --highlight-accent: #add8e6;
+    --font-family: "Arial", sans-serif; 
+  }
+  
+  .retro-palette {
+    --primary-background: rgb(248, 228, 191);
+    --secondary-background: #f0e68c;
+    --primary-text: rgb(102, 51, 0);
+    --secondary-text: rgb(139, 69, 19);
+    --highlight-accent: #cd853f;
+    --font-family: "Courier New", monospace; 
+  }
+  
+  

@@ -1,0 +1,59 @@
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text); 
+}
+
+
+ul, li {
+  list-style-type: none;
+}
+
+p, li, a, span { 
+  color: var(--secondary-text); 
+  text-decoration: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+}
+
+
+.sidebar-container {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  height: 100vh;
+
+}
+  
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  z-index: 2;
+}
+
+.content-page {
+  background-color: var(--primary-background);
+  padding: 0 2rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}

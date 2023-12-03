@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "preTitle": "3 Hour Challenge",
+        "title": "Los Angeles Crime Data Dashboard",
+        "subtitle": null,
+        "descriptionShort": "A user-friendly web application for exploring and analyzing Los Angeles crime data",
+        "descriptionLong": "Given only 3 hours to complete I feel proud of the outcome of this project. This web application provides an interactive and user-friendly way to explore and analyze crime data in Los Angeles. Utilizing powerful data visualization tools, users can filter and compare crime types, areas, and victim demographics, while examining trends and patterns on an interactive map.",
+        "tags": [
+            {"id": "1", "name": "Data analysis", "topic": "Data Science"},
+            {"id": "2", "name": "Data visualization", "topic": "Data Science"},
+            {"id": "3", "name": "Streamlit", "topic": "Web Development"},
+            {"id": "4", "name": "Interactive-map", "topic": "GIS"},
+            {"id": "5", "name": "Pandas", "topic": "Data Processing"},
+            {"id": "6", "name": "Geospatial", "topic": "Data Science"},
+            {"id": "7", "name": "Data filtering", "topic": "Data Science"}
+        ],
+        "dateCompleted": "2023-03-01",
+        "dateUpdated": "2023-03-01",
+        "onGoing": false,
+        "link": "https://zsturman-la-crime-data-crime-data-mv5y1k.streamlit.app/",
+        "imageSrc": "LACrimeData",
+        "imageAlt": "LA Crime Data Dashboard Icon",
+        "role": "Project Lead"
+    },
+    {
+        "id": "2",
+        "preTitle": null,
+        "title": "1 Hour Challenge: Knowledge Navigator",
+        "subtitle": null,
+        "descriptionShort": null,
+        "descriptionLong": "KnowledgeNavigator brings the best learning resources from around the web right to your fingertips. Unleash your curiosity with this innovative app that connects you to the best educational resources based on your interests, experience level, and learning goals.",
+        "tags": [
+            {"id": "8", "name": "Education", "topic": "Learning"},
+            {"id": "9", "name": "Self-improvement", "topic": "Learning"},
+            {"id": "10", "name": "Javascript", "topic": "Web Development"},
+            {"id": "11", "name": "HTML", "topic": "Web Development"},
+            {"id": "12", "name": "Caching", "topic": "Web Optimization"}
+        ],
+        "dateCompleted": "2023-03-01",
+        "dateUpdated": "2023-03-01",
+        "onGoing": false,
+        "link": null,
+        "imageSrc": "KnowledgeNavigator",
+        "imageAlt": "KnowledgeNavigator Project Icon",
+        "role": "Front-End Developer"
+    },
+    {
+        "id": "3",
+        "preTitle": null,
+        "title": "Examining the Effectiveness of Tip Redistributing in the Casino Industry",
+        "subtitle": null,
+        "descriptionShort": null,
+        "descriptionLong": "In this case study, we delve into the effectiveness of tip redistributing within the casino industry, exploring its impact on employee satisfaction, customer experience, and overall business performance. We analyze various tip pooling and sharing systems, while considering the unique dynamics present in the highly competitive and service-oriented casino environment.",
+        "tags": [
+            {"id": "13", "name": "Case Study", "topic": "Research"},
+            {"id": "14", "name": "Data Analysis", "topic": "Data Science"},
+            {"id": "15", "name": "Javascript", "topic": "Web Development"},
+            {"id": "16", "name": "ChartJS", "topic": "Data Visualization"},
+            {"id": "17", "name": "Business intelligence", "topic": "Business"}
+        ],
+        "dateCompleted": "2023-01-01",
+        "dateUpdated": "2023-01-01",
+        "onGoing": false,
+        "link": null,
+        "imageSrc": "TipRedistributionAnalysis",
+        "imageAlt": "Tip Redistribution Image",
+        "role": "Data Analyst"
+    },
+    {
+        "id": "4",
+        "preTitle": null,
+        "title": "Interactive Periodic Table of Elements",
+        "subtitle": null,
+        "descriptionShort": null,
+        "descriptionLong": "This interactive periodic table of elements app is designed to spark your curiosity and deepen your understanding of the building blocks of matter. Dive into the world of elements as you explore detailed information, captivating visuals, and engaging activities tailored to users of all ages and backgrounds.",
+        "tags": [
+            {"id": "18", "name": "Interactive", "topic": "Web Feature"},
+            {"id": "19", "name": "UI/ UX Design", "topic": "Design"},
+            {"id": "20", "name": "Responsive Design", "topic": "Web Development"},
+            {"id": "21", "name": "HTML", "topic": "Web Development"},
+            {"id": "22", "name": "Jinja2", "topic": "Web Development"},
+            {"id": "23", "name": "Javascript", "topic": "Web Development"}
+        ],
+        "dateCompleted": "2023-01-01",
+        "dateUpdated": "2023-01-01",
+        "onGoing": true,
+        "link": null,
+        "imageSrc": "PeriodicTable",
+        "imageAlt": "Periodic Table Image",
+        "role": "UI/UX Designer"
+    },
+    {
+        "id": "5",
+        "preTitle": null,
+        "title": "2 Hour Challenge: The Gambler's Fallacy",
+        "subtitle": null,
+        "descriptionShort": null,
+        "descriptionLong": "The gambler's fallacy is the mistaken belief that past events in a random process influence future outcomes, despite the probabilities being independent of each other.",
+        "tags": [
+            {"id": "24", "name": "Data analysis", "topic": "Data Science"},
+            {"id": "25", "name": "Predictive modeling", "topic": "Data Science"},
+            {"id": "26", "name": "Statistical analysis", "topic": "Data Science"},
+            {"id": "27", "name": "Python", "topic": "Programming Language"}
+        ],
+        "dateCompleted": "2022-12-01",
+        "dateUpdated": "2022-12-01",
+        "onGoing": false,
+        "link": "https://github.com/ZSturman/Gamblers-Fallacy--Roulette",
+        "imageSrc": "GamblersFallacy",
+        "imageAlt": "Gambler's Fallacy Image",
+        "role": "Data Scientist"
+    },
+    {
+        "id": "7",
+        "preTitle": null,
+        "title": "Knife Grinder",
+        "subtitle": null,
+        "descriptionShort": null,
+        "descriptionLong": "From a struggling start-up to a profitable venture, this is a story of transformation powered by data analysis and modern marketing strategies.",
+        "tags": [
+            {"id": "34", "name": "Python", "topic": "Programming Language"},
+            {"id": "35", "name": "Javascript", "topic": "Web Development"},
+            {"id": "36", "name": "Data Analysis", "topic": "Data Science"},
+            {"id": "37", "name": "Business", "topic": "Business"}
+        ],
+        "dateCompleted": "2023-10-01",
+        "dateUpdated": "2023-10-01",
+        "onGoing": true,
+        "link": null,
+        "imageSrc": "KnifeGrinder",
+        "imageAlt": "Knife Grinder Business Image",
+        "role": "Data Analyst"
+    }
+]

@@ -1,0 +1,47 @@
+
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 20px; 
+    margin-right: 15px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .btn-primary {
+    border: none;
+    border-radius: 14px; 
+    background: var(--highlight-accent);
+    color: var(--primary-text);
+    text-transform: uppercase;
+    text-decoration: none; 
+  }
+  
+  .btn-secondary {
+    border-radius: 14px; 
+    border: var(--primary-text) 1px solid;
+    color: var(--primary-text);
+    background: transparent;
+    text-transform: uppercase;
+    text-decoration: none; 
+  }
+  
+  .btn-tertiary {
+    border: none;
+    background: transparent;
+    color: var(--primary-text);
+    text-decoration: underline;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px); 
+  }
+  
+  .btn-primary:hover {
+    background: var(--highlight-accent);
+    color: var(--primary-text);
+  }
+  
+  
