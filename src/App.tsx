@@ -2,8 +2,6 @@ import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useCookies } from "react-cookie"
 
-import Themes from "./styles/themes.json";
-
 import HomePage from "./components/Pages/HomePage/HomePage";
 import AboutPage from "./components/Pages/AboutPage/AboutPage";
 import ProjectsPage from "./components/Pages/ProjectsPage/ProjectsPage";

@@ -1,9 +1,10 @@
 import { useState } from "react"
 import { useCookies } from "react-cookie"
+import themes from "../../styles/themes.json"
 import "./ThemeSelector.scss"
 
 const ChangeThemeButton = () => {
-    const [cookies, setCookie, removeCookie] = useCookies(undefined);
+    const [cookies, setCookie] = useCookies(undefined);
     const currentTheme = cookies["Theme"] || "modern-palette";
     const [showPalettes, setShowPalettes] = useState(false);
 
@@ -30,7 +31,7 @@ const ChangeThemeButton = () => {
 
       {showPalettes && (
         <div className="theme-grid">
-          {themes.map((theme) => (
+          {themes.map((theme: { id: string; primaryColor: string; secondaryColor: string }) => (
             <div
               key={theme.id}
               className="theme-swatch"

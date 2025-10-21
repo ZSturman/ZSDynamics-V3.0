@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import SidebarLink from "./SidebarLink"
 import SidebarReumeLink from "./SidebarResumeLink"
 import SidebarPaintbucket from "./SidebarPaintbucket"
