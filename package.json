@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:prerender": "tsc && vite build && node scripts/prerender.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "serve": "npx serve docs"
@@ -34,6 +35,7 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "json-to-scss": "^1.6.2",
     "node-sass": "^9.0.0",
+    "puppeteer": "^24.25.0",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
