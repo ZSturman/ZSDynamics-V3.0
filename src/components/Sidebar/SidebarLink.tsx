@@ -30,6 +30,22 @@ const iconMap: { [key: string]: JSX.Element } = {
 
 const SidebarLink = ({ label, to }: SidebarLinkProps) => {
     const icon = iconMap[label] || null;
+    
+    // Check if it's an external link
+    const isExternal = to.startsWith('http') || to.startsWith('mailto:') || to.startsWith('tel:');
+
+    if (isExternal) {
+        return (
+            <a 
+                href={to} 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label} 
+                title={label}>
+                <li className="icon">{icon}</li>
+            </a>
+        );
+    }
 
     return (
         <Link 

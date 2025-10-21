@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { IoStatsChartOutline } from "react-icons/io5";
 import { MdEngineering } from "react-icons/md";
 
@@ -7,13 +8,13 @@ const NameAndTitle = () => {
       <h1 className="full-name">zachary sturman</h1>
 
       <div className="project-links">
-      <a href="./projects" className="project-link">
+        <Link to="/projects" className="project-link">
           <IoStatsChartOutline />
-        </a>
+        </Link>
 
-      <a href="./projects" className="project-link">
-        <MdEngineering />
-      </a>
+        <Link to="/projects" className="project-link">
+          <MdEngineering />
+        </Link>
       </div>
 
 

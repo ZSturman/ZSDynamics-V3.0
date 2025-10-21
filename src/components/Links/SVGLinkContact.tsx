@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import ContactSVG from "../../assets/svg/ContactSVG";
 
 const SVGLinkContact = () => {
   return (
-    <a href="/contact">
+    <Link to="/contact">
       <ContactSVG />
-    </a>
+    </Link>
   );
 };
 

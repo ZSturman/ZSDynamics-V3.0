@@ -29,11 +29,11 @@ const Sidebar = () => {
           </ul>
 
           <ul className="icons external-links">
-            <SidebarLink label="GitHub" to="/" />
-            <SidebarLink label="LinkedIn" to="/" />
-            <SidebarLink label="TwitterX" to="/" />
-            <SidebarLink label="Email" to="/" />
-            <SidebarLink label="Phone" to="/" />
+            <SidebarLink label="GitHub" to="https://github.com/ZSturman" />
+            <SidebarLink label="LinkedIn" to="https://linkedin.com/in/zachary-sturman" />
+            <SidebarLink label="TwitterX" to="https://twitter.com" />
+            <SidebarLink label="Email" to="mailto:contact@zsdynamics.com" />
+            <SidebarLink label="Phone" to="tel:+1-555-0123" />
           </ul>
 
           <ul className="icons recreational-links">

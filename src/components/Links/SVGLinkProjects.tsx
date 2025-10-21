@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import ProjectsSVG from "../../assets/svg/ProjectsSVG";
 
 const SVGLinkProjects = () => {
   return (
     <div>
-      <a href="/projects">
+      <Link to="/projects">
         <ProjectsSVG />
-      </a>
+      </Link>
     </div>
   );
 };

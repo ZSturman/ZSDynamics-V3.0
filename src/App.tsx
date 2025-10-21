@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <>
-      <Router>
+      <Router basename="/ZSDynamics-V3.0">
         <div className="app-container">
           <div className="sidebar-container">
             <Sidebar />

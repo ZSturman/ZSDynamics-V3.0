@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import AboutSVG from "../../assets/svg/AboutSVG";
 
 const SVGLinkAbout = () => {
   return (
-    <a href="/about">
+    <Link to="/about">
       <AboutSVG />
-    </a>
+    </Link>
   );
 };
 
